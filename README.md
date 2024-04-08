@@ -25,3 +25,10 @@ It's a technique employed for clustering objects that resemble each other accord
 Operates by amalgamating several "weak" classifiers to form a single "strong" classifier. Every weak classifier undergoes training on a data subset, with the algorithm increasing the weights of incorrectly classified data points. Subsequently, the next weaker classifier receives training on the revised data set, where the weights are adjusted to indicate the complexity of classifying each data point.
 ### K-Nearest-Neighbors
 It determines the category of new data points by identifying the predominant class among its K closest neighbors within the feature space.
+### Logistic Regression
+Logistic regression is a supervised classification algorithm that models the probability an observation 
+belongs to a specific category using a logistic function. Our implementation employs logistic 
+regression to classify observations into multiple categories, optimizing hyperparameters through 
+random search and evaluating performance using metrics like accuracy and the F1 score on a test 
+set.
+
