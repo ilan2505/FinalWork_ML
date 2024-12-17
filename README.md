@@ -1,3 +1,6 @@
+# Author
+Ilan Meyer Souffir
+
 # FinalWork_ML
 This is out Machine Learning final project, the subject is : given a dataset of differents sports pictures, we want to classify them according to 7 categories :<br>
 basball, basketball, boxing, football, formula1, swimming, tennis and then run som Machine Learning algorithms on them.<br>
